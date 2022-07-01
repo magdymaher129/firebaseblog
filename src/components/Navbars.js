@@ -1,10 +1,10 @@
 import React,{useContext} from "react";
-import {
-
-Link,
-  
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 import { UserContext } from "../context/UserContext";
+
+
+  
+
 
 const Navbars = () => {
   const {name,setName}=useContext(UserContext )
