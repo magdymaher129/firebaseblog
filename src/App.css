@@ -5,7 +5,9 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
+
 }
+
 
 nav {
   margin: 0;
@@ -142,6 +144,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
+
 }
 
 .homePage .post {
@@ -186,4 +189,45 @@ textarea {
   width: 100%;
   overflow: hidden;
   overflow-y: auto;
+}
+.reg-email,
+.reg-password {
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+}
+.reg-btn {
+
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 210px;
+  border:0;
+  margin: 10px;
+}
+.reg {
+
+  
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  left:600px;
+  top:200px;
+  border:1px solid grey;
+  box-shadow: 1px 4px grey;
+}
+.grey{
+  background-color:  #474e5d;
+  color:#c8dafc;
+ 
+}
+.blue{
+  background-color: cornflowerblue;
+}
+.red{
+  background-color: rgb(251, 5, 50);
+}
+.green{
+  background-color: rgb(2, 118, 4);
 }

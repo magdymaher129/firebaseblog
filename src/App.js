@@ -1,16 +1,16 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+import {createContext} from 'react';
 
-import './App.css';
-import Navbar from './components/Navbar';
+import { auth } from "./firebase-config";
 
 
 function App() {
   return (
   
-<Navbar/>
-
-
-   
-  )
+      <Navbar />
+ 
+  );
 }
 
 export default App;
